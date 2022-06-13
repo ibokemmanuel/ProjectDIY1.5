@@ -1,0 +1,48 @@
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:teal;
+    border-radius: 4px;
+}
+
+
+li{
+    float: left;
+    border-right: 2px solid white;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ki a:hover:not(.active){
+    background-color:#111;
+}
+
+.active{
+    background-color: #4CAF50;
+}
+
+
+.image{
+    width: 300px;
+    height: 300pxpx;
+    margin: 29px;
+    border-radius: 400px;
+}
+
+.image2{
+    width: 300px;
+    height: 300pxpx;
+    margin: 900px;
+    margin-top: -488px;
+    border-radius: 400px;
+}
